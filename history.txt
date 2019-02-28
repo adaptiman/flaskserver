@@ -1,0 +1,88 @@
+    1  git
+    2  git --version
+    3  git config list
+    4  git config --global user.name "David Sweeney"
+    5  git config --global user.email "sweeney@tamu.edu"
+    6  ssh-keygen -t rsa -b 4096 -C "sweney@tamu.edu"
+    7  ssh-keygen -t rsa -b 4096 -C "sweeney@tamu.edu"
+    8  ls
+    9  ls -al
+   10  cd .ssh
+   11  ls
+   12  ls -al
+   13  cat id_rsa.pub 
+   14  clear
+   15  ls
+   16  cd ..
+   17  ls
+   18  mkdir test
+   19  cd test/
+   20  ls
+   21  git clone git@github.com:adaptiman/django-test.git
+   22  ls
+   23  cd django-test/
+   24  ls
+   25  vi index 
+   26  git add .
+   27  git commit -m "Another change."
+   28  git push origin master
+   29  docker --version
+   30  docker run hello-world
+   31  docker list
+   32  docker ls
+   33  docker images
+   34  cd ..
+   35  ls
+   36  cd ..
+   37  ls
+   38  rm -rf test/
+   39  ls
+   40  mkdir project
+   41  cd project/
+   42  touch Dockerfile
+   43  vi Dockerfile 
+   44  vi Dockerfile 
+   45  vi Dockerfile 
+   46  ls
+   47  touch requirements.txt
+   48  vi requirements.txt 
+   49  mv requirements.txt server.py
+   50  vi server.py 
+   51  touch requirements.txt
+   52  flask >> requirements.txt 
+   53  echo "flask" >> requirements.txt
+   54  cat requirements.txt 
+   55  ls
+   56  cat Dockerfile 
+   57  pip
+   58  ls
+   59  cat requirements.txt 
+   60  cat server.py 
+   61  docker images
+   62  docker build --tag=server .
+   63  docker images
+   64  docker run --rm -ti -p 80:5000 server
+   65  ls
+   66  mkdir code
+   67  cd code/
+   68  ls
+   69  git init
+   70  ls
+   71  cp ../* ./
+   72  ls
+   73  git add .
+   74  git commit -m "Initial Commit"
+   75  ls
+   76  docker login
+   77  docker login
+   78  cd ..
+   79  rm -rf code/
+   80  ls
+   81  docker build -t adaptiman/flask-demo2 .
+   82  docker push adaptiman/flask-demo2
+   83  cd ~
+   84  ls
+   85  ls -al
+   86  cat .bash_history
+   87  history
+   88  history >> history.txt
